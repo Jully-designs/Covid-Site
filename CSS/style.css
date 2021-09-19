@@ -1,0 +1,1460 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav {
+  margin: 0 0 5% 0;
+  transition: all 0.35s ease, padding 0.35s ease;
+}
+nav ul {
+  font-weight: bold;
+  font-size: 20px;
+}
+nav ul li a {
+  margin-right: 25px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #6f42c1;
+}
+.navbar-light .navbar-brand {
+  margin-left: 10.5%;
+  font-size: 20px;
+  color: black;
+  font-weight: 500;
+}
+.navbar-light .navbar-brand a:hover {
+  color: #6f42c1;
+}
+
+.navbar {
+  padding-top: 1.5em;
+  padding-left: 0;
+}
+.navbar .navbar-toggler {
+  background-color: #6f42c1;
+}
+
+.sticky {
+  /* to be added when navbar is scrolled. */
+  position: fixed;
+  top: 0px;
+  background-color: white;
+  width: 100%;
+  z-index: 9999999;
+  margin-left: 0;
+  padding: 15px 10px;
+  font-size: 20px;
+}
+.sticky ul li a:hover {
+  color: #6f42c1;
+}
+
+.sticky-content {
+  padding-top: 25vh;
+}
+
+.banner-content .intro-text {
+  padding-top: 20px;
+  padding-left: 12%;
+  line-height: 1.7rem;
+}
+.banner-content .intro-text #introText2 {
+  margin-bottom: 2rem;
+}
+.banner-content .intro-text p:first-child {
+  color: rgba(111, 66, 193, 0.5);
+}
+.banner-content .intro-text h1 {
+  color: #6f42c1;
+  font-size: 40px;
+  font-weight: 900;
+  margin-bottom: 2rem;
+}
+.banner-content .intro-text button {
+  padding: 10px 30px;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  transition: color 2s ease;
+}
+.banner-content .intro-text button:hover {
+  background-color: white;
+  border: solid 1px #6f42c1;
+  color: #6f42c1;
+  font-weight: bold;
+}
+.banner-content .show-text {
+  transform: translateX(-150px);
+  transition: all 5s ease-in-out;
+}
+.banner-content .show-image {
+  transform: translateY(100px);
+  transition: all 5s ease-in-out;
+}
+
+.illustration1 {
+  margin-left: 0px;
+}
+.illustration1 img {
+  max-width: 100%;
+  z-index: 0;
+  margin-top: 10vh;
+}
+
+button {
+  background-color: #6f42c1;
+}
+
+.banner {
+  position: relative;
+  background-color: rgba(111, 66, 193, 0.1);
+  height: 100vh;
+}
+
+.custom-shape-divider-bottom-1628879371 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  z-index: 99999;
+}
+
+.custom-shape-divider-bottom-1628879371 svg {
+  position: relative;
+  display: block;
+  width: calc(160% + 1.3px);
+  height: 204px;
+}
+
+.custom-shape-divider-bottom-1628879371 .shape-fill {
+  fill: #FFFFFF;
+}
+
+.main {
+  text-align: center;
+  line-height: 2rem;
+  margin-bottom: 40px;
+}
+.main h2 {
+  color: #6f42c1;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.covid-statistics .statistics-header {
+  padding-top: 80px;
+  transform: translateY(-50px);
+  transition: all 8s ease-in-out;
+}
+.covid-statistics .active-cases {
+  transform: translateX(-20px);
+  transition: all 5s ease-in-out;
+}
+.covid-statistics .statistics {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.covid-statistics .statistics p:nth-child(2) {
+  font-size: 40px;
+  font-weight: bold;
+}
+.covid-statistics .statistics .fas {
+  font-size: 25px;
+  color: #6f42c1;
+  margin-bottom: 10px;
+}
+.covid-statistics .statistics span {
+  font-weight: 700;
+  color: #bbb8b8;
+}
+
+.covid-intro {
+  padding-top: 50px;
+}
+.covid-intro .intro-img {
+  transform: translateY(100px);
+  transition: all 3s ease-in-out;
+}
+.covid-intro .man-text {
+  transform: translateX(-80px);
+  transition: all 5s ease-out;
+}
+.covid-intro .intro-man img {
+  max-width: 100%;
+  height: auto;
+  padding: 70px;
+}
+
+.intro {
+  padding: 60px;
+}
+.intro p {
+  line-height: 2rem;
+}
+.intro ul {
+  line-height: 1.8rem;
+  list-style: none;
+}
+.intro ul li::before {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Font Awesome 5 free";
+  font-weight: 900;
+  content: "\f058";
+  margin-right: 15px;
+  color: #6f42c1;
+}
+.intro h2 {
+  color: #6f42c1;
+  font-size: 30px;
+  font-weight: 700;
+}
+.intro button {
+  padding: 10px 30px;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  transition: color 2s ease;
+}
+.intro button:hover {
+  background-color: white;
+  border: solid 1px #6f42c1;
+  color: #6f42c1;
+  font-weight: bold;
+}
+
+.covid-care {
+  margin: 10px 0 25px 0;
+  padding: 20px;
+}
+.covid-care .protection {
+  display: flex;
+  justify-content: space-evenly;
+}
+.covid-care .protection .fas {
+  font-size: 25px;
+  color: #6f42c1;
+  font-size: 35px;
+  margin-top: 12px;
+  margin-right: -30px;
+}
+.covid-care .protection .protection-text span {
+  color: #6f42c1;
+  font-size: 20px;
+  font-weight: 700;
+}
+.covid-care .protection-scroll {
+  transform: translateY(50px);
+  transition: all 3s ease-in;
+}
+
+.covid-prevention {
+  background-color: rgba(111, 66, 193, 0.05);
+}
+.covid-prevention .card-details {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 50px;
+  margin: 20vh 0;
+}
+.covid-prevention .card-details .card {
+  width: 45%;
+  margin: 15px 15px;
+  border-radius: 7px;
+  overflow: hidden;
+}
+.covid-prevention .card-details .card:nth-child(2), .covid-prevention .card-details .card:nth-child(4) {
+  margin-top: -40px;
+  margin-bottom: 65px;
+}
+.covid-prevention .card-details .card .card-top {
+  background-color: rgba(111, 66, 193, 0.2);
+  height: 25vh;
+}
+.covid-prevention .card-details .card .card-top .fas {
+  display: flex;
+  justify-content: center;
+  margin-top: 30%;
+  font-size: 45px;
+  color: #6f42c1;
+}
+.covid-prevention .card-details .card .card-body {
+  padding: 20px;
+}
+.covid-prevention .card-details .card .card-body span {
+  font-size: 1.2em;
+  font-weight: 500;
+  color: #6f42c1;
+}
+.covid-prevention .card-details .card .card-body p {
+  line-height: 1.7em;
+}
+.covid-prevention .card-details .card-scroll1 {
+  transform: translateY(-150px);
+  transition: all 8s ease-in-out;
+}
+.covid-prevention .card-details .card-scroll2 {
+  transform: translateY(-100px);
+  transition: all 6s ease-out;
+}
+.covid-prevention .card-details .card-scroll3 {
+  transform: translateY(150px);
+  transition: all 8s ease-in-out;
+}
+.covid-prevention .card-details .card-scroll4 {
+  transform: translateY(100px);
+  transition: all 6s ease-out;
+}
+.covid-prevention .card-prevent {
+  margin-top: 35vh;
+  line-height: 2em;
+  padding: 0 60px;
+}
+.covid-prevention .card-prevent ul {
+  list-style-type: none;
+}
+.covid-prevention .card-prevent ul li::before {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Font Awesome 5 free";
+  font-weight: 900;
+  content: "\f058";
+  margin-right: 15px;
+  color: #6f42c1;
+}
+.covid-prevention .card-prevent h3 {
+  color: #6f42c1;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+.covid-prevention .card-prevent button {
+  padding: 10px 30px;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  transition: color 2s ease;
+  font-size: 12px;
+  padding: 5px 20px;
+}
+.covid-prevention .card-prevent button:hover {
+  background-color: white;
+  border: solid 1px #6f42c1;
+  color: #6f42c1;
+  font-weight: bold;
+}
+.covid-prevention .card-prevent-scroll {
+  transform: translateX(-20px);
+  transition: all 5s ease;
+}
+
+.covid-protection {
+  padding-top: 60px;
+}
+.covid-protection .covid-protection-header {
+  text-align: center;
+  margin: 60px 0;
+}
+.covid-protection .covid-protection-header .col-lg-12 h3 {
+  color: #6f42c1;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.covid-protection .todo {
+  padding-left: 90px;
+}
+.covid-protection .todo h5 {
+  margin-bottom: 30px;
+}
+.covid-protection .todo ul {
+  list-style-type: none;
+  line-height: 2.5rem;
+}
+.covid-protection .todo ul li::before {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Font Awesome 5 free";
+  font-weight: 900;
+  content: "\f058";
+  margin-right: 15px;
+  color: #89db46;
+}
+.covid-protection .avoid h5 {
+  margin-bottom: 30px;
+}
+.covid-protection .avoid ul {
+  list-style-type: none;
+  line-height: 2.5rem;
+}
+.covid-protection .avoid ul li::before {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Font Awesome 5 free";
+  font-weight: 900;
+  content: "\f00d";
+  margin-right: 15px;
+  color: #e95454;
+}
+.covid-protection img {
+  margin-top: -70px;
+  max-width: 100%;
+}
+
+.coronavirus-symptoms {
+  background-color: rgba(111, 66, 193, 0.1);
+  padding: 120px 80px 80px 80px;
+}
+.coronavirus-symptoms .symptoms-header {
+  text-align: center;
+  margin-bottom: 50px;
+  line-height: 2.5rem;
+}
+.coronavirus-symptoms .symptoms-header .col-lg-12 h3 {
+  color: #6f42c1;
+  font-weight: bold;
+}
+.coronavirus-symptoms .col-lg-6 .card {
+  margin-top: 30px;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 1px 0px 5px;
+}
+.coronavirus-symptoms .col-lg-6 .card .card-content {
+  margin-left: 15px;
+  flex-direction: column;
+}
+.coronavirus-symptoms .col-lg-6 .card .card-content h6 {
+  color: #6f42c1;
+}
+.coronavirus-symptoms .col-lg-6 img {
+  max-width: 20%;
+}
+.coronavirus-symptoms .symptoms-end {
+  margin-top: 30px;
+}
+.coronavirus-symptoms .symptoms-end p {
+  padding-left: 100px;
+  line-height: 2rem;
+}
+.coronavirus-symptoms .symptoms-end p span {
+  color: #6f42c1;
+  font-weight: 600;
+}
+.coronavirus-symptoms .symptoms-end button {
+  padding: 10px 30px;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  transition: color 2s ease;
+}
+.coronavirus-symptoms .symptoms-end button i {
+  padding-right: 10px;
+}
+.coronavirus-symptoms .symptoms-end button:hover {
+  background-color: white;
+  border: solid 1px #6f42c1;
+  color: #6f42c1;
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 30px;
+  padding: 100px;
+}
+footer .footer-about p:nth-child(2) {
+  line-height: 1.8rem;
+}
+footer .footer-about .footer-socials {
+  padding-top: 35px;
+}
+footer .footer-about .footer-socials i {
+  padding-right: 30px;
+  color: #6f42c1;
+}
+footer ul {
+  list-style-type: none;
+  line-height: 3rem;
+}
+footer ul li a {
+  color: #6f42c1;
+  font-weight: 700;
+}
+footer ul li a:hover {
+  text-decoration: none;
+}
+footer .copyright {
+  text-align: center;
+  padding-top: 90px;
+}
+
+.banner-show {
+  opacity: 0;
+  transition: all 5s ease-in-out;
+}
+
+.banner-scrolled {
+  opacity: 1;
+}
+.banner-scrolled.show-text {
+  transform: translateX(0px);
+}
+.banner-scrolled.show-image {
+  transform: translateY(0px);
+}
+
+.scroll {
+  opacity: 0;
+  transition: all 5s ease;
+}
+
+.scrolled {
+  opacity: 1;
+}
+.scrolled.statistics-header {
+  transform: translateY(0px);
+}
+.scrolled.active-cases {
+  transform: translateX(0px);
+}
+.scrolled.intro-img {
+  transform: translateY(0px);
+}
+.scrolled.man-text {
+  transform: translateX(0px);
+}
+.scrolled.protection-scroll {
+  transform: translateY(0px);
+}
+.scrolled.card-prevent-scroll {
+  transform: translateX(0px);
+}
+
+.card-details .scrolled {
+  opacity: 1;
+}
+.card-details .scrolled.card-scroll1 {
+  transform: translateY(0px);
+}
+.card-details .scrolled.card-scroll2 {
+  transform: translateY(0px);
+}
+.card-details .scrolled.card-scroll3 {
+  transform: translateY(0px);
+}
+.card-details .scrolled.card-scroll4 {
+  transform: translateY(0px);
+}
+
+.covid-prevention .scrolled {
+  opacity: 1;
+}
+.covid-prevention .scrolled.card-prevent-scroll {
+  transform: translateX(0px);
+}
+
+@media screen and (max-width: 1024px) {
+  .sticky-content {
+    padding-top: 35vh;
+  }
+
+  .intro-text {
+    padding-left: 12%;
+    line-height: 1.7rem;
+  }
+  .intro-text #introText2 {
+    margin-bottom: 2rem;
+  }
+  .intro-text p:first-child {
+    color: rgba(111, 66, 193, 0.5);
+  }
+  .intro-text h1 {
+    color: #6f42c1;
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 1rem;
+  }
+  .intro-text button {
+    padding: 10px 30px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    transition: color 2s ease;
+  }
+
+  .illustration1 {
+    margin-left: 0px;
+  }
+  .illustration1 img {
+    max-width: 100%;
+    z-index: 0;
+  }
+
+  .custom-shape-divider-bottom-1628879371 svg {
+    position: relative;
+    display: block;
+    width: calc(160% + 1.3px);
+    height: 150px;
+  }
+
+  .covid-care {
+    margin: 10px 0 25px 0;
+    padding: 20px;
+  }
+  .covid-care .protection {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .covid-care .protection .fas {
+    font-size: 25px;
+    color: #6f42c1;
+    font-size: 35px;
+    margin-top: 12px;
+    margin-right: 0;
+  }
+  .covid-care .protection .protection-text span {
+    color: #6f42c1;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .covid-prevention {
+    background-color: rgba(111, 66, 193, 0.05);
+  }
+  .covid-prevention .card-details {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 50px;
+    margin: 20vh 0;
+  }
+  .covid-prevention .card-details .card {
+    width: 45%;
+    margin: 15px 10px;
+  }
+  .covid-prevention .card-details .card:nth-child(2), .covid-prevention .card-details .card:nth-child(4) {
+    margin-top: -40px;
+    margin-bottom: 65px;
+  }
+  .covid-prevention .card-details .card .card-top {
+    background-color: rgba(111, 66, 193, 0.2);
+    height: 25vh;
+  }
+  .covid-prevention .card-details .card .card-top .fas {
+    display: flex;
+    justify-content: center;
+    margin-top: 30%;
+    font-size: 45px;
+    color: #6f42c1;
+  }
+  .covid-prevention .card-details .card .card-body {
+    padding: 20px;
+  }
+  .covid-prevention .card-details .card .card-body span {
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #6f42c1;
+  }
+  .covid-prevention .card-details .card .card-body p {
+    line-height: 1.7em;
+  }
+  .covid-prevention .card-prevent {
+    margin-top: 35vh;
+    line-height: 2em;
+    padding: 0 60px;
+  }
+  .covid-prevention .card-prevent ul {
+    list-style-type: none;
+  }
+  .covid-prevention .card-prevent h3 {
+    color: #6f42c1;
+    font-weight: 700;
+    margin-bottom: 25px;
+  }
+  .covid-prevention .card-prevent button {
+    padding: 10px 30px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    transition: color 2s ease;
+    font-size: 12px;
+  }
+
+  .covid-protection .covid-protection-header {
+    text-align: center;
+    margin: 60px 0;
+  }
+  .covid-protection .covid-protection-header .col-lg-12 h3 {
+    color: #6f42c1;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  .covid-protection .todo {
+    padding-left: 70px;
+  }
+  .covid-protection .todo h5 {
+    margin-bottom: 30px;
+  }
+  .covid-protection .todo ul {
+    list-style-type: none;
+    line-height: 2.5rem;
+  }
+  .covid-protection .avoid h5 {
+    margin-bottom: 30px;
+  }
+  .covid-protection .avoid ul {
+    list-style-type: none;
+    line-height: 2.5rem;
+  }
+  .covid-protection img {
+    margin-top: -70px;
+    max-width: 100%;
+  }
+
+  .coronavirus-symptoms {
+    background-color: rgba(111, 66, 193, 0.1);
+    padding: 80px;
+  }
+  .coronavirus-symptoms .symptoms-header {
+    text-align: center;
+    margin-bottom: 50px;
+    line-height: 2.5rem;
+  }
+  .coronavirus-symptoms .symptoms-header .col-lg-12 h3 {
+    color: #6f42c1;
+    font-weight: bold;
+  }
+  .coronavirus-symptoms .col-lg-6 .card {
+    margin-top: 30px;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 1px 0px 5px;
+  }
+  .coronavirus-symptoms .col-lg-6 .card .card-content {
+    margin-left: 15px;
+    flex-direction: column;
+  }
+  .coronavirus-symptoms .col-lg-6 .card .card-content h6 {
+    color: #6f42c1;
+  }
+  .coronavirus-symptoms .col-lg-6 img {
+    max-width: 20%;
+  }
+  .coronavirus-symptoms .symptoms-end {
+    margin-top: 30px;
+  }
+  .coronavirus-symptoms .symptoms-end p {
+    padding-left: 100px;
+    line-height: 2rem;
+  }
+  .coronavirus-symptoms .symptoms-end p span {
+    color: #6f42c1;
+    font-weight: 600;
+  }
+  .coronavirus-symptoms .symptoms-end button {
+    padding: 10px 30px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    transition: color 2s ease;
+  }
+  .coronavirus-symptoms .symptoms-end button i {
+    padding-right: 10px;
+  }
+
+  footer {
+    margin-top: 30px;
+    padding: 100px;
+  }
+  footer .footer-about p:nth-child(2) {
+    line-height: 1.8rem;
+  }
+  footer .footer-about .footer-socials {
+    padding-top: 35px;
+  }
+  footer .footer-about .footer-socials i {
+    padding-right: 10px;
+    color: #6f42c1;
+  }
+  footer ul {
+    list-style-type: none;
+    line-height: 3rem;
+  }
+  footer ul li a {
+    color: #6f42c1;
+    font-weight: 700;
+  }
+  footer ul li a:hover {
+    text-decoration: none;
+  }
+  footer .copyright {
+    text-align: center;
+    padding-top: 90px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .intro-text {
+    padding-left: 12%;
+    line-height: 1.7rem;
+  }
+  .intro-text #introText2 {
+    margin-bottom: 2rem;
+  }
+  .intro-text p:first-child {
+    color: rgba(111, 66, 193, 0.5);
+  }
+  .intro-text h1 {
+    color: #6f42c1;
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 1rem;
+  }
+  .intro-text button {
+    padding: 10px 30px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    transition: color 2s ease;
+  }
+
+  .illustration1 {
+    margin-left: 0px;
+    display: none;
+  }
+  .illustration1 img {
+    height: 70vh;
+    max-width: 100%;
+    z-index: 0;
+  }
+
+  .covid-prevention .card-details {
+    margin: 10vh 0;
+  }
+  .covid-prevention .card-details .card {
+    width: 45%;
+    margin: 30px 10px;
+  }
+  .covid-prevention .card-details .card:nth-child(2), .covid-prevention .card-details .card:nth-child(4) {
+    margin-top: -25px;
+    margin-bottom: 70px;
+  }
+  .covid-prevention .card-details .card .card-top {
+    background-color: rgba(111, 66, 193, 0.2);
+    height: 25vh;
+  }
+  .covid-prevention .card-details .card .card-top .fas {
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+    font-size: 45px;
+    color: #6f42c1;
+  }
+  .covid-prevention .card-details .card .card-body {
+    padding: 20px;
+  }
+  .covid-prevention .card-details .card .card-body span {
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #6f42c1;
+  }
+  .covid-prevention .card-details .card .card-body p {
+    line-height: 1.7em;
+  }
+  .covid-prevention .card-prevent {
+    margin-top: 0;
+    margin-bottom: 20px;
+    line-height: 2em;
+    padding: 0 60px;
+  }
+  .covid-prevention .card-prevent ul {
+    list-style-type: none;
+  }
+  .covid-prevention .card-prevent h3 {
+    text-align: center;
+    color: #6f42c1;
+    font-weight: 700;
+    margin-bottom: 25px;
+  }
+  .covid-prevention .card-prevent button {
+    padding: 10px 30px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    transition: color 2s ease;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .covid-protection .covid-protection-header {
+    text-align: center;
+    margin: 60px 0;
+  }
+  .covid-protection .covid-protection-header .col-lg-12 h3 {
+    color: #6f42c1;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  .covid-protection .todo {
+    padding-left: 15%;
+    width: 50%;
+  }
+  .covid-protection .todo h5 {
+    margin-bottom: 30px;
+  }
+  .covid-protection .todo ul {
+    list-style-type: none;
+    line-height: 2.5rem;
+  }
+  .covid-protection .avoid {
+    width: 50%;
+    padding-left: 15%;
+  }
+  .covid-protection .avoid h5 {
+    margin-bottom: 30px;
+  }
+  .covid-protection .avoid ul {
+    list-style-type: none;
+    line-height: 2.5rem;
+  }
+  .covid-protection img {
+    display: none;
+  }
+
+  .coronavirus-symptoms {
+    background-color: rgba(111, 66, 193, 0.1);
+    padding: 80px;
+  }
+  .coronavirus-symptoms .symptoms-header {
+    text-align: center;
+    margin-bottom: 50px;
+    line-height: 2.5rem;
+  }
+  .coronavirus-symptoms .symptoms-header .col-lg-12 h3 {
+    color: #6f42c1;
+    font-weight: bold;
+  }
+  .coronavirus-symptoms .col-lg-6 .card {
+    margin-top: 30px;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 1px 0px 5px;
+  }
+  .coronavirus-symptoms .col-lg-6 .card .card-content {
+    margin-left: 15px;
+    flex-direction: column;
+  }
+  .coronavirus-symptoms .col-lg-6 .card .card-content h6 {
+    color: #6f42c1;
+  }
+  .coronavirus-symptoms .col-lg-6 .card img {
+    max-width: 20%;
+  }
+  .coronavirus-symptoms .symptoms-end {
+    margin-top: 30px;
+  }
+  .coronavirus-symptoms .symptoms-end p {
+    padding-left: 0px;
+    line-height: 2rem;
+  }
+  .coronavirus-symptoms .symptoms-end p span {
+    color: #6f42c1;
+    font-weight: 600;
+  }
+  .coronavirus-symptoms .symptoms-end button {
+    padding: 10px 30px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    transition: color 2s ease;
+  }
+  .coronavirus-symptoms .symptoms-end button i {
+    padding-right: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .navbar-collapse {
+    z-index: 999999;
+    position: absolute;
+    text-align: center;
+    background-color: #6f42c1;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 20px 0;
+    color: black;
+  }
+  .navbar-collapse ul li {
+    padding: 10px;
+  }
+
+  .intro-text {
+    padding-left: 12%;
+    line-height: 1.7rem;
+  }
+  .intro-text #introText2 {
+    margin-bottom: 2rem;
+  }
+  .intro-text p:first-child {
+    color: rgba(111, 66, 193, 0.5);
+  }
+  .intro-text h1 {
+    color: #6f42c1;
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 1rem;
+  }
+  .intro-text button {
+    padding: 10px 30px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    transition: color 2s ease;
+  }
+
+  .intro-man img {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+
+  .illustration1 {
+    margin-left: 0px;
+    display: none;
+  }
+  .illustration1 img {
+    height: 70vh;
+    max-width: 100%;
+    z-index: 0;
+  }
+
+  .covid-prevention .card-details {
+    margin: 10vh 0;
+  }
+  .covid-prevention .card-details .card {
+    width: 45%;
+    margin: 20px 5px;
+  }
+  .covid-prevention .card-details .card:nth-child(2), .covid-prevention .card-details .card:nth-child(4) {
+    margin-top: 0px;
+    margin-bottom: 35px;
+  }
+  .covid-prevention .card-details .card .card-top {
+    background-color: rgba(111, 66, 193, 0.2);
+    height: 25vh;
+  }
+  .covid-prevention .card-details .card .card-top .fas {
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+    font-size: 45px;
+    color: #6f42c1;
+  }
+  .covid-prevention .card-details .card .card-body {
+    padding: 20px;
+  }
+  .covid-prevention .card-details .card .card-body span {
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #6f42c1;
+  }
+  .covid-prevention .card-details .card .card-body p {
+    line-height: 1.7em;
+  }
+  .covid-prevention .card-prevent {
+    margin-top: 0;
+    margin-bottom: 20px;
+    line-height: 2em;
+    padding: 0 60px;
+  }
+  .covid-prevention .card-prevent ul {
+    list-style-type: none;
+  }
+  .covid-prevention .card-prevent h3 {
+    text-align: center;
+    color: #6f42c1;
+    font-weight: 700;
+    margin-bottom: 25px;
+  }
+  .covid-prevention .card-prevent button {
+    padding: 10px 30px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    transition: color 2s ease;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .covid-protection .covid-protection-header {
+    text-align: center;
+    margin: 60px 0;
+  }
+  .covid-protection .covid-protection-header .col-lg-12 h3 {
+    color: #6f42c1;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  .covid-protection .todo {
+    padding-left: 15%;
+    width: 50%;
+  }
+  .covid-protection .todo h5 {
+    margin-bottom: 30px;
+  }
+  .covid-protection .todo ul {
+    list-style-type: none;
+    line-height: 2.5rem;
+  }
+  .covid-protection .avoid {
+    width: 50%;
+    padding-left: 15%;
+  }
+  .covid-protection .avoid h5 {
+    margin-bottom: 30px;
+  }
+  .covid-protection .avoid ul {
+    list-style-type: none;
+    line-height: 2.5rem;
+  }
+  .covid-protection img {
+    display: none;
+  }
+
+  .coronavirus-symptoms {
+    background-color: rgba(111, 66, 193, 0.1);
+    padding: 80px;
+  }
+  .coronavirus-symptoms .symptoms-header {
+    text-align: center;
+    margin-bottom: 50px;
+    line-height: 2.5rem;
+  }
+  .coronavirus-symptoms .symptoms-header .col-lg-12 h3 {
+    color: #6f42c1;
+    font-weight: bold;
+  }
+  .coronavirus-symptoms .col-lg-6 .card {
+    margin-top: 30px;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 1px 0px 5px;
+  }
+  .coronavirus-symptoms .col-lg-6 .card .card-content {
+    margin-left: 15px;
+    flex-direction: column;
+  }
+  .coronavirus-symptoms .col-lg-6 .card .card-content h6 {
+    color: #6f42c1;
+  }
+  .coronavirus-symptoms .col-lg-6 .card img {
+    max-width: 20%;
+  }
+  .coronavirus-symptoms .symptoms-end {
+    margin-top: 30px;
+  }
+  .coronavirus-symptoms .symptoms-end p {
+    padding-left: 0px;
+    line-height: 2rem;
+  }
+  .coronavirus-symptoms .symptoms-end p span {
+    color: #6f42c1;
+    font-weight: 600;
+  }
+  .coronavirus-symptoms .symptoms-end button {
+    padding: 10px 30px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    transition: color 2s ease;
+  }
+  .coronavirus-symptoms .symptoms-end button i {
+    padding-right: 10px;
+  }
+
+  footer {
+    margin-top: 30px;
+    padding: 100px 25%;
+  }
+  footer .footer-about p:nth-child(2) {
+    line-height: 1.8rem;
+  }
+  footer .footer-about .footer-socials {
+    padding-top: 15px;
+    margin-bottom: 40px;
+  }
+  footer .footer-about .footer-socials i {
+    padding-right: 10px;
+    color: #6f42c1;
+  }
+  footer ul {
+    list-style-type: none;
+    line-height: 3rem;
+  }
+  footer ul li a {
+    color: #6f42c1;
+    font-weight: 700;
+  }
+  footer ul li a:hover {
+    text-decoration: none;
+  }
+  footer .copyright {
+    text-align: center;
+    padding-top: 90px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .banner-content .intro-text {
+    padding-left: 12%;
+    line-height: 1.7rem;
+  }
+  .banner-content .intro-text #introText2 {
+    margin-bottom: 1rem;
+  }
+  .banner-content .intro-text p:first-child {
+    color: rgba(111, 66, 193, 0.5);
+  }
+  .banner-content .intro-text h1 {
+    color: #6f42c1;
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom: 1rem;
+  }
+  .banner-content .intro-text button {
+    padding: 10px 30px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    transition: color 2s ease;
+    padding: 7px 30px;
+  }
+  .banner-content .illustration1 {
+    margin-left: 0px;
+    display: none;
+  }
+  .banner-content .illustration1 img {
+    height: 70vh;
+    max-width: 100%;
+    z-index: 0;
+  }
+
+  .intro-man img {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+
+  .covid-prevention .card-details {
+    margin: 10vh 0;
+    padding-left: 15px;
+  }
+  .covid-prevention .card-details .card {
+    width: 100%;
+    margin: 15px 0;
+  }
+  .covid-prevention .card-details .card:nth-child(2), .covid-prevention .card-details .card:nth-child(4) {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .covid-prevention .card-details .card .card-top {
+    background-color: rgba(111, 66, 193, 0.2);
+    height: 25vh;
+  }
+  .covid-prevention .card-details .card .card-top .fas {
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+    font-size: 45px;
+    color: #6f42c1;
+  }
+  .covid-prevention .card-details .card .card-body {
+    padding: 20px;
+  }
+  .covid-prevention .card-details .card .card-body span {
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #6f42c1;
+  }
+  .covid-prevention .card-details .card .card-body p {
+    line-height: 1.7em;
+  }
+  .covid-prevention .card-prevent {
+    margin-top: 0;
+    margin-bottom: 20px;
+    line-height: 2em;
+    padding: 0 60px;
+  }
+  .covid-prevention .card-prevent ul {
+    list-style-type: none;
+  }
+  .covid-prevention .card-prevent h3 {
+    text-align: center;
+    color: #6f42c1;
+    font-weight: 700;
+    margin-bottom: 25px;
+  }
+  .covid-prevention .card-prevent button {
+    padding: 10px 30px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    transition: color 2s ease;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .covid-protection .covid-protection-header {
+    text-align: center;
+    margin: 60px 0;
+  }
+  .covid-protection .covid-protection-header .col-lg-12 h3 {
+    color: #6f42c1;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  .covid-protection .todo {
+    width: 100%;
+    padding-left: 30%;
+  }
+  .covid-protection .todo h5 {
+    margin-bottom: 30px;
+  }
+  .covid-protection .todo ul {
+    list-style-type: none;
+    line-height: 2.5rem;
+  }
+  .covid-protection .avoid {
+    width: 100%;
+    padding-left: 30%;
+  }
+  .covid-protection .avoid h5 {
+    margin-bottom: 30px;
+  }
+  .covid-protection .avoid ul {
+    list-style-type: none;
+    line-height: 2.5rem;
+  }
+  .covid-protection img {
+    display: none;
+  }
+
+  .coronavirus-symptoms {
+    background-color: rgba(111, 66, 193, 0.1);
+    padding: 80px 20px;
+  }
+  .coronavirus-symptoms .symptoms-header {
+    text-align: center;
+    margin-bottom: 50px;
+    line-height: 2.5rem;
+  }
+  .coronavirus-symptoms .symptoms-header .col-lg-12 h3 {
+    color: #6f42c1;
+    font-weight: bold;
+  }
+  .coronavirus-symptoms .col-lg-6 {
+    width: 100%;
+  }
+  .coronavirus-symptoms .col-lg-6 .card {
+    margin-top: 30px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 1px 0px 5px;
+  }
+  .coronavirus-symptoms .col-lg-6 .card .card-content {
+    margin-left: 15px;
+    flex-direction: column;
+  }
+  .coronavirus-symptoms .col-lg-6 .card .card-content h6 {
+    color: #6f42c1;
+  }
+  .coronavirus-symptoms .col-lg-6 .card img {
+    max-width: 20%;
+  }
+  .coronavirus-symptoms .symptoms-end {
+    margin-top: 30px;
+  }
+  .coronavirus-symptoms .symptoms-end p {
+    padding-left: 0px;
+    line-height: 2rem;
+  }
+  .coronavirus-symptoms .symptoms-end p span {
+    color: #6f42c1;
+    font-weight: 600;
+  }
+  .coronavirus-symptoms .symptoms-end button {
+    padding: 10px 30px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    transition: color 2s ease;
+  }
+  .coronavirus-symptoms .symptoms-end button i {
+    padding-right: 10px;
+  }
+
+  footer {
+    margin-top: 30px;
+    padding: 100px 25%;
+  }
+  footer .footer-about p:nth-child(2) {
+    line-height: 1.8rem;
+  }
+  footer .footer-about .footer-socials {
+    padding-top: 15px;
+    margin-bottom: 40px;
+  }
+  footer .footer-about .footer-socials i {
+    padding-right: 10px;
+    color: #6f42c1;
+  }
+  footer ul {
+    list-style-type: none;
+    line-height: 3rem;
+  }
+  footer ul li a {
+    color: #6f42c1;
+    font-weight: 700;
+  }
+  footer ul li a:hover {
+    text-decoration: none;
+  }
+  footer .copyright {
+    text-align: center;
+    padding-top: 90px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .custom-shape-divider-bottom-1628879371 svg {
+    position: relative;
+    display: block;
+    width: calc(160% + 1.3px);
+    height: 100px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

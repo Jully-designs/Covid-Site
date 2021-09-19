@@ -1,0 +1,44 @@
+@mixin buttonStyle {
+    padding: 10px 30px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    transition: color 2s ease;
+}
+@mixin button-hover{
+    background-color: white;
+    border: solid 1px $headerbackground;
+    color: $headerbackground;
+    font-weight: bold;
+}
+@mixin h2styles {
+    color: $headerbackground;
+    font-size: 30px;
+    font-weight: 700;
+}
+@mixin iconStyle{
+    font-size: 25px;
+    color: $headerbackground;
+}
+@mixin icon1-before{
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 free";
+    font-weight: 900;
+    content: "\f058";
+    margin-right: 15px;
+}
+@mixin icon2-before{
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 free";
+    font-weight: 900;
+    content: "\f00d";
+    margin-right: 15px;
+}
